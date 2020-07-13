@@ -1,0 +1,9 @@
+mollo_artist.main:
+  css:
+    theme:
+      assets/css/mollo_artist.css: {}
+  js:
+    assets/js/mollo_artist.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
