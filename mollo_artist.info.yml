@@ -1,4 +1,4 @@
-name: 'Mollo Artist Module'
+name: 'Mollo Artist'
 type: module
 description: 'Artist Module for Mollo Events'
 core: 8.x
