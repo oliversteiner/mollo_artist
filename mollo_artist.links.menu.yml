@@ -13,7 +13,7 @@ mollo_artist.artist:
   title: 'Artists'
   description: 'Show all Roles'
   route_name: mollo_artist.artist.list
-  parent: 'mollo_artist.main:'
+  parent: 'mollo_artist.main'
 #
 # Content > Artist > Roles
 #
@@ -21,7 +21,7 @@ mollo_artist.role:
   title: 'Roles'
   description: 'Show all Roles'
   route_name: mollo_artist.role.list
-  parent: 'mollo_artist.main:'
+  parent: 'mollo_artist.main'
 #
 # Content > Artist > Groups
 #
@@ -29,4 +29,4 @@ mollo_artist.group:
   title: 'Groups'
   description: 'Show all Roles'
   route_name: mollo_artist.group.list
-  parent: 'mollo_artist.main:'
+  parent: 'mollo_artist.main'
