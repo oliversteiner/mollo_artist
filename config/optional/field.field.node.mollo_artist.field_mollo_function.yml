@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_mollo_function
     - node.type.mollo_artist
-    - taxonomy.vocabulary.function
+    - taxonomy.vocabulary.mollo_function
 id: node.mollo_artist.field_mollo_function
 field_name: field_mollo_function
 entity_type: node
@@ -20,10 +20,10 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      function: function
+      mollo_function: mollo_function
     sort:
       field: name
       direction: asc
     auto_create: true
-    auto_create_bundle: ''
+    auto_create_bundle: mollo_function
 field_type: entity_reference

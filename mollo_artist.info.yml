@@ -9,3 +9,4 @@ dependencies:
   - auto_entitylabel
   - views_admintools
   - pathauto
+  - content_translation
