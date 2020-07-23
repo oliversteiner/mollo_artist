@@ -1,0 +1,29 @@
+#
+# View Artists
+#
+mollo_artist.artist.list:
+  path: '/admin/artist/list'
+  defaults:
+    _title: 'Artists'
+  requirements:
+    _permission: 'administer content'
+
+#
+# View Roles
+#
+mollo_artist.role.list:
+  path: '/admin/role/list'
+  defaults:
+    _title: 'Roles'
+  requirements:
+    _permission: 'administer content'
+
+#
+# View Group
+#
+mollo_artist.group.list:
+  path: '/admin/artist-group/list'
+  defaults:
+    _title: 'Artist Groups'
+  requirements:
+    _permission: 'administer content'
