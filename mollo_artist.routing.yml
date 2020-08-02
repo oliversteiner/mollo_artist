@@ -7,17 +7,6 @@ mollo_artist.artist.list:
     _title: 'Artists'
   requirements:
     _permission: 'administer content'
-
-#
-# View Roles
-#
-mollo_artist.role.list:
-  path: '/admin/role/list'
-  defaults:
-    _title: 'Roles'
-  requirements:
-    _permission: 'administer content'
-
 #
 # View Group
 #
